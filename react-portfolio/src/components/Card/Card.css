@@ -1,17 +1,16 @@
-.card{
+#Portcard{
     width:500px;
     height:350px;
     border-style: outset;
     border:2px black solid;
     border-style: outset;
     margin:10px;
-    background-color: palegoldenrod;
+    background-color: rgba(238, 197, 170, 0.837);
 
 }
 h5{
     color:#01652B;
     font-weight: bolder;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
 

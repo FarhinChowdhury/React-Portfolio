@@ -9,7 +9,8 @@ import BudgetImg from "../assets/budget-tracker.png"
 
 function Portfolio(){
     return(
-        <div>
+        <>
+        <div className="container">
             <h1>Portfolio:</h1>
             <div className="row">
                 <div className="col">
@@ -27,7 +28,7 @@ function Portfolio(){
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col">
                     <Card name="Project 1: TravelBug" 
                     img="https://user-images.githubusercontent.com/70531552/95394897-68871a80-08cb-11eb-8785-06631ed979ec.png"
                     link ="https://github.com/FarhinChowdhury/TravelBug"
@@ -47,14 +48,14 @@ function Portfolio(){
                     link="https://shrouded-headland-26156.herokuapp.com/"
                     />
                 </div>
-                <div className="col-lg-6">
+                <div className="col">
                     <Card name="Budget Tracker"
                     img={BudgetImg}
                     link="https://nameless-island-78488.herokuapp.com/" />
                 </div>
             </div>
         </div>
-
+    </>
     )
 }
 

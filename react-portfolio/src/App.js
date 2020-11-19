@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import {Switch, Route} from "react-router-dom"
 import Portfolio from "./pages/Portfolio";
 import Home from "./pages/Home";
@@ -11,21 +12,19 @@ function App() {
   return (
 
       <div className="App">
-        <NavBar className="NavBar"/>
-        <div className="container">
+        <NavBar/>
           <Switch>
-          <Route path="/portfolio">
-            <Portfolio/>
-          </Route>
-          <Route path = "/">
-            <Home/>
-          </Route>
-          <Route path="/contact">
-            <Contact/>
-          </Route>
+            <Route path="/portfolio">
+              <Portfolio/>
+            </Route>
+            <Route path = "/">
+              <Home/>
+            </Route>
+            <Route exact path="/contact">
+              <Contact/>
+            </Route>
           </Switch>
-
-        </div>
+        <Footer/>
       </div>
 
   );

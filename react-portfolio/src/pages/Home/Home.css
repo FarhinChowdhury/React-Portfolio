@@ -1,0 +1,47 @@
+
+header{
+    background-color:#f1763a ;
+    border:"none";
+    height:250px;
+    width:100%;
+    color:antiquewhite;
+    font-size: 7rem;
+
+}
+.center{
+    position: relative;
+
+}
+
+#aboutme-text{
+    background-color:#f5d7cd00 ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top:100px;
+    margin:20px;
+    border:none;
+    text-align: left;
+    position: relative;
+}
+.heroImage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Users/farhinchowdhury/Desktop/bootcamp/Homework/React-Portfolio/react-portfolio/src/assets/me.jpg);
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.heroText{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    text-align: center;
+    font-size: 5.8rem;
+
+}
+#title{
+    margin-top:30px;
+}
+
