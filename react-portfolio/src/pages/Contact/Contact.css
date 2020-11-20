@@ -2,6 +2,7 @@
     background-color: #f6e2da;
     -webkit-text-stroke:#f1763a ;
     text-shadow: 2px 1px #f1773a75;
+    padding-bottom: 200px;
 }
 
 form{
@@ -13,4 +14,12 @@ form{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
     font-weight: bold;
+
+}
+
+#contactTitle{
+    color:antiquewhite;
+    padding-top:30px;
+    font-size: 4rem;
+    
 }

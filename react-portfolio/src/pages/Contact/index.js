@@ -3,9 +3,13 @@ import './Contact.css'
 
 function Contact(){
     return(
+        <>
+        <header>
+            <h1 className="display-4" id="contactTitle">Contact:</h1>
+        </header>
         <div className="container">
             <div className="jumbotron">
-                <h1 className="display-4">Contact:</h1>
+
                 <hr className="my-4"/>
                 <form>
                     <div className="form-group">
@@ -26,6 +30,7 @@ function Contact(){
                 </form>
             </div>
         </div>
+        </>
         
     )
 }

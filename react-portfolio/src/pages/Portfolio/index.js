@@ -11,8 +11,13 @@ import './Portfolio.css'
 function Portfolio(){
     return(
         <>
+        <header>
+            <center> <h1 id="portfolioTitle">Portfolio:</h1></center>
+            
+
+        </header>
         <div className="container">
-            <h1>Portfolio:</h1>
+            
             <div className="row">
                 <div className="col-lg-6">
                     <Card name="Project 2: Fandomzzz"
