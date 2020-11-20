@@ -1,0 +1,16 @@
+.jumbotron{
+    background-color: #f6e2da;
+    -webkit-text-stroke:#f1763a ;
+    text-shadow: 2px 1px #f1773a75;
+}
+
+form{
+    background-color: #f6e2da;
+    border:2px orange solid;
+    border-radius: 10px;
+    padding:30px;
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+}

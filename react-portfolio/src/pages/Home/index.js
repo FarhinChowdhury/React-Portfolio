@@ -10,6 +10,10 @@ function Home(){
             <div className="heroImage">
                 <div className="heroText">
                     Farhin Chowdhury
+                    <div className="socials">
+                        <a href="https://github.com/FarhinChowdhury"><i class="fab fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com/in/farhin-chowdhury-49905a173/"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
 
@@ -19,6 +23,7 @@ function Home(){
                 </div>
                 <div className="col-lg-9">
                         <div className="card" id="aboutme-text">
+                            <div className="cardBody">
                                 <p>
 
                                     <b>She/her 
@@ -42,8 +47,11 @@ function Home(){
                                     <br/><br/>
                                     Unlike the other places my career has taken me, this new space makes me feel like I belong. The lustre of the front end and the investigations in the backend keep me wired to learn more. It also makes me wonder why I didn’t take it up seriously in my earlier years. 
 
-                                    I invite you to a small portfolio that continues to grow, a linked profile calling for our connection and a GitHub page that makes you come back
-                                </p>
+                                    I invite you to a small portfolio that continues to grow, a linked profile calling for our connection and a GitHub page that makes you come back.
+                                    <br/>
+                                </p>   
+                            </div>
+
 
                     </div>
 

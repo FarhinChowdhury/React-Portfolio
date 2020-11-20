@@ -1,21 +1,29 @@
 #Portcard{
-    width:500px;
     height:350px;
     border-style: outset;
-    border:2px black solid;
+    border:3px solid #f1763a;
     border-style: outset;
+    border-radius: 8px;
     margin:10px;
-    background-color: rgba(238, 197, 170, 0.837);
+    background-color: rgba(250, 230, 216, 0.596);
 
 }
 h5{
-    color:#01652B;
+    color:#f1763a;
     font-weight: bolder;
+
 
 }
 
-.card-img-top{
-    width: 498px;
+
+img{
+    width: 100%;
     height:300px;
-    border:1px darkgrey solid;
+}
+
+
+@media screen and (max-width: 375px) {
+    img {
+         width: 200px;
+    }
 }
